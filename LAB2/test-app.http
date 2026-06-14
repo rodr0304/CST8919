@@ -1,0 +1,104 @@
+### Failed Login #1
+POST http://localhost:5001/login
+Content-Type: application/json
+
+{
+    "username":"admin",
+    "password":"wrong"
+}
+
+### Failed Login #2
+POST http://localhost:5001/login
+Content-Type: application/json
+
+{
+    "username":"admin",
+    "password":"wrong2"
+}
+
+### Successful Login
+POST http://localhost:5001/login
+Content-Type: application/json
+
+{
+    "username":"admin",
+    "password":"admin123"
+}
+### Successful Login
+POST https://diniz-cst8919-lab2-btangpbresbkhnax.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+###
+
+### Failed Login
+POST https://diniz-cst8919-lab2-btangpbresbkhnax.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "hacker",
+  "password": "wrongpassword"
+}
+
+###
+
+### Failed Login
+POST https://diniz-cst8919-lab2-btangpbresbkhnax.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "attacker",
+  "password": "123456"
+}
+### Failed Login
+POST https://diniz-cst8919-lab2-btangpbresbkhnax.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "attacker3",
+    "password": "123456"
+}
+### Failed Login
+POST https://diniz-cst8919-lab2-btangpbresbkhnax.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "letmein",
+    "password": "qwerty"
+}
+### Failed Login
+POST https://diniz-cst8919-lab2-btangpbresbkhnax.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "user1",
+    "password": "qwerty"
+}
+### Failed Login
+POST https://diniz-cst8919-lab2-btangpbresbkhnax.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "admin1",
+    "password": "qwerty"
+}
+### Failed Login
+POST https://diniz-cst8919-lab2-btangpbresbkhnax.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "admin2",
+    "password": "qwerty"
+}
+### Failed Login
+POST https://diniz-cst8919-lab2-btangpbresbkhnax.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "admin3",
+    "password": "qwerty"
+}
