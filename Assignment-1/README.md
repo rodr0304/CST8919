@@ -1,5 +1,9 @@
 # Assignment 1 - Securing and Monitoring an Authenticated Flask App
 
+---
+YouTube: https://youtu.be/3LJkIYu9Yx8
+---
+
 ## Overview
 
 This project demonstrates how to secure and monitor a Flask web application using Auth0 and Microsoft Azure.
