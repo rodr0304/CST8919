@@ -30,7 +30,6 @@ Assignment1/
 ├── .env.example
 ├── test-app.http
 ├── README.md
-└── static/
 ```
 
 ---
