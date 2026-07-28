@@ -1,0 +1,17 @@
+### Home Page
+GET https://webapp-rodr0304.azurewebsites.net/
+
+###
+
+### Login (redirects to Auth0)
+GET https://webapp-rodr0304.azurewebsites.net/login
+
+###
+
+### Protected Page (requires authentication)
+GET https://webapp-rodr0304.azurewebsites.net/protected
+
+###
+
+### Logout
+GET https://webapp-rodr0304.azurewebsites.net/logout
