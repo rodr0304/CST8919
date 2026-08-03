@@ -224,5 +224,7 @@ policy-lab/
 Video demonstration:
 
 ```
-[<Insert YouTube or OneDrive link here>
-](https://youtu.be/L1ZWARfxu78)```
+
+https://youtu.be/L1ZWARfxu78
+
+```
