@@ -1,0 +1,39 @@
+{
+  "properties": {
+    "displayName": "Require-ProjectName-Tag",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "Requires all resources to include a ProjectName tag.",
+    "metadata": {
+      "category": "Security",
+      "createdBy": "aba19b4a-9ce4-482b-8bb3-52ae74978dd2",
+      "createdOn": "2026-08-02T22:21:49.1848147Z",
+      "updatedBy": null,
+      "updatedOn": null
+    },
+    "version": "1.0.0",
+    "policyRule": {
+      "if": {
+        "field": "[concat('tags[', 'ProjectName', ']')]",
+        "exists": "false"
+      },
+      "then": {
+        "effect": "deny"
+      }
+    },
+    "versions": [
+      "1.0.0"
+    ]
+  },
+  "id": "/subscriptions/36ea98d6-f516-45b6-bd67-d406a93223ba/providers/Microsoft.Authorization/policyDefinitions/affcb8024ee053dda6b64b8d",
+  "type": "Microsoft.Authorization/policyDefinitions",
+  "name": "affcb8024ee053dda6b64b8d",
+  "systemData": {
+    "createdBy": "rodr0304@algonquinlive.com",
+    "createdByType": "User",
+    "createdAt": "2026-08-02T22:21:49.1722181Z",
+    "lastModifiedBy": "rodr0304@algonquinlive.com",
+    "lastModifiedByType": "User",
+    "lastModifiedAt": "2026-08-02T22:21:49.1722181Z"
+  }
+}
