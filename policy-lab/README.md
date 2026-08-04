@@ -213,8 +213,7 @@ policy-lab/
 │   ├── Only-CanadaCentral.json
 │   ├── Require-ProjectName-Tag.json
 │   └── Deny-Public-IP.json
-│
-└── video-link.txt
+
 ```
 
 ---
